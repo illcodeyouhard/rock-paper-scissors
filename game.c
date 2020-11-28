@@ -1,6 +1,3 @@
-/*
-** It is an optimized version of the game with functions
-*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -13,10 +10,7 @@
 #include "graphics.h"
 int main()
 {
-/*! I want to repeat game for 3 rounds but it does not work
-//int k;
-//for (k=0;k>4;k++){
-*/
+
         time_t t;
         loop:
         srand((unsigned) time (&t));
